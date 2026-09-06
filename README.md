@@ -7,7 +7,7 @@ Visual Studio Code.
 
 
 ## Commands
-To access all the commands you use /mg. Here's the list of all the available options:
+To access all the commands you use `/mg`. Here's the list of all the available options:
 
 ### Minigame commands
 * `/mg list` - shows you the list of your registered minigames
@@ -410,6 +410,13 @@ use in your minigame. You can have as many as you want. Look above if you forgot
 how to configure them.
 * `"triggers": { }` - these are your triggers for this minigame. These triggers will
 only be active when the minigame starts. 
+
+### How would you go about creating your own minigame
+* Duplicate the `DEFAULT.json` file and rename it to whatever you wish.
+* Start changing stuff.
+* Test your stuff. If you want to quickly reload the minigame files you can use
+`/mg reload`.
+* Repeat until you're satisfied.
 
 ## End
 That wraps it up. I wish you succeed in your minigames creation quest. Good luck
