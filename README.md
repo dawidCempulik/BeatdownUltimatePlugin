@@ -405,6 +405,7 @@ This option is required, if you want to use any triggers, that reset the arena.
 infinite durability, when this option is enabled.
 * `"infiniteSaturation": false,` - enables infinite saturation for the players
 during the minigame.
+* `"disablePvP": false,` - disabled PvP.
 * `"areaBreakOnStartList": [[ "0 0 0", "0 0 0" ]],` - you specify the areas that
 will get destroyed when the `startDelay` ends. Notice, this is a list of lists.
 You can have multiple areas destroyed if you specify them after a coma `,`.
