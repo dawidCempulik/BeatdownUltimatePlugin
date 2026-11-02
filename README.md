@@ -389,6 +389,10 @@ a countdown.
 * `"numberOfGames": 1,` - the number of games that will be played in a row. 
 If your minigame ends too quick, you might want to use this option to allow the
 players to play multiple times against each other, before the whole match ends.
+* `"maxPlayerHealth": 20,` - maximum health that the players will be put on for the
+entirety of the minigame.
+* `"overrideDamageValue": -1,` - make players deal a set amount of damage to each
+other. Set it to -1 to disable that option.
 * `"kit": "",` - the kit that will be given to players at the beginning of the game.
 * `"breakBlocksOnStart": false,` - this allows you to use the "walls" feature I've
 talked about. After the `startDelay` ends, if this option is enabled, the areas,
@@ -399,6 +403,8 @@ specify later will get saved when the game starts and then reset when the game e
 This option is required, if you want to use any triggers, that reset the arena.
 * `"disableItemDamage": false,` - for the time of this minigame all items have
 infinite durability, when this option is enabled.
+* `"infiniteSaturation": false,` - enables infinite saturation for the players
+during the minigame.
 * `"areaBreakOnStartList": [[ "0 0 0", "0 0 0" ]],` - you specify the areas that
 will get destroyed when the `startDelay` ends. Notice, this is a list of lists.
 You can have multiple areas destroyed if you specify them after a coma `,`.
