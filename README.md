@@ -18,6 +18,8 @@ your minigame file
 minigame
 * `/mg start <name>` - starts the minigame
 * `/mg stop` - manually stops the running minigame
+* `/mg pause` - pauses the entire server tickrate and player movements
+* `/mg unpause` - unpauses the server tickrate and allows players to move again
 
 ### Kit commands
 Kits are not being saved in a file but rather in your world. If you happen to
@@ -406,6 +408,7 @@ infinite durability, when this option is enabled.
 * `"infiniteSaturation": false,` - enables infinite saturation for the players
 during the minigame.
 * `"disablePvP": false,` - disabled PvP.
+* `"fallDamage": true,` - should the game apply fall damage to players.
 * `"areaBreakOnStartList": [[ "0 0 0", "0 0 0" ]],` - you specify the areas that
 will get destroyed when the `startDelay` ends. Notice, this is a list of lists.
 You can have multiple areas destroyed if you specify them after a coma `,`.
