@@ -428,5 +428,9 @@ only be active when the minigame starts.
 `/mg reload`.
 * Repeat until you're satisfied.
 
+# Quick note
+If you create a team with the name `spectators` and join it, the plugin will ignore
+you when loading players to minigames.
+
 ## End
 That wraps it up. I wish you succeed in your minigames creation quest. Good luck
